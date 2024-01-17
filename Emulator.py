@@ -101,6 +101,6 @@ for thing in Cells:
     h = str(hex(thing))
     h = h.replace("0x",'')
     HexCells.append(h)
-print("{}---{}---{}".format(IP,IS,R))
+print("IP: {}--- IS: {}--- R: {}".format(IP,IS,R))
 print(HexCells)
 print("{} steps taken".format(steps))
