@@ -1,0 +1,23 @@
+Here's how it works:
+The microprocessor is able to take in a file of 16 digits from 0 - 9. Comments are allowed with the prefix of //.
+Do note though, that any input with more than 16 numbers will produce an error cuz it aint built for that.
+
+Here's what each instruction does:
+
+0 - Halts
+1 - adds 1 to R
+2 - adds 2 to R
+3 - adds 4 to R
+4 - adds 8 to R
+7 - Meant to ring a bell, I just made it print out something
+8 - Prints whatevers in R in decimal
+9 - prints whatevers in R in hexadecimal
+
+So; R, IP and IS? I'll explain.
+R - the register: Basically, you use this to add and print stuff. Its very general and versatile in its purpose.
+IP - this will normally be pointing at whatever cell the microcprocessor was last running
+IS - this will, to my knowledge, store the last instruction your microprocessor has executed
+
+anyways to load something into the microprocessor, just make a text file and put in your instructions. It literally goes like:
+1 2 8 4 8 3 1 8
+Just open that and yeah
