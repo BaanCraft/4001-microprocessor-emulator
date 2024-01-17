@@ -42,6 +42,10 @@ for item in actual_data:
 if len(data) not in range(0,15):
     print("Bro you put in the wrong amount of shit")
     exit()
+
+while len(data) != 15:
+    data.append(0)
+
 #set up the top row
 R = 0
 IS = 0
